@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -62,6 +63,26 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'ai-gradient': 'var(--ai-gradient)',
+				'ai-gradient-subtle': 'var(--ai-gradient-subtle)'
+			},
+			backgroundColor: {
+				'glass': 'var(--glass-bg)',
+				'upload-hover': 'var(--upload-hover)',
+				'message-user': 'var(--message-user)',
+				'message-ai': 'var(--message-ai)'
+			},
+			borderColor: {
+				'glass': 'var(--glass-border)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'elegant': 'var(--shadow-elegant)'
+			},
+			transitionProperty: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
